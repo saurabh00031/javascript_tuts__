@@ -38,7 +38,7 @@ console.log(namex,channel,num1,x);
 //not allowed bcz const cant be changed
 
 
-//const f;   //we have to initilaize it....here it will give errors
+//const f;   //we have to initilaize it...else.here it will give errors
 //const f="saurabh"   //yes,it is valid
 //
 

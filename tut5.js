@@ -55,6 +55,8 @@ console.log("--------------------------------------------------------");
 
 
 
+
+
 //Coercion
 
 let kl="783883";
@@ -62,4 +64,16 @@ let lk=89;
 console.log(kl+lk);  //number ko string mein convert karta hain//
 
 
+let ssssp=String(202002);
+let dp=parseInt('202002');
+let ddp=dp+dp;
+console.log(ddp);
 
+console.log(ssssp+ssssp);
+
+
+
+
+let strx=new String();
+strx='saurabh patil';
+console.log(strx);
