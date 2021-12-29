@@ -20,7 +20,7 @@ htmls=htmls.concat(htmls,htmls);
 
 console.log(htmls);
 
-console.log('is present or not:-'+htmls.includes('is'));
+console.log('is present or not:-'+htmls.includes('is')); //check whether given is substring or not//
 
 
 console.log(htmls.substring(0,39));

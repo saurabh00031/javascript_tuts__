@@ -11,9 +11,10 @@ console.warn("This is warning");
 //console.error('this is an error');
 //alert("this is alert");
 //semi-colon can be forgived and it is not strict to semi-colon
-console.timeEnd('Your code Took');  //write similar string from console.time
+//console.timeEnd('Your code Took');  //write similar string from console.time
 //console.clear();
-//console.assert(age>10,'this is not possible');
+var age=100;
+//console.assert(age=100,'this is not possible');
 
 
 

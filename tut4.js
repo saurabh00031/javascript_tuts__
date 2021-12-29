@@ -3,6 +3,7 @@
 //DATA TYPES
 
 //primitive data types 
+
 //strings
 //numbers
 //boolean
@@ -12,6 +13,7 @@
 
 
 //reference data types
+
 //arrays
 //object literals
 //functions
@@ -43,8 +45,13 @@ console.log(typeof nullvar);  //bogus value of null ..it says object although it
 //......................................reference data-types................................................//
 
 //Array
+
 myArr=[12,32,3,33,3,'saurabh',false,'s'];
+
+console.log("................");
+ 
 console.log(myArr);
+
 console.log(typeof myArr);
 
 for(var i=0;i<myArr.length;i++)
@@ -55,6 +62,7 @@ for(var i=0;i<myArr.length;i++)
 
 //object literals
 console.log(".....now obj-literals..........\n");
+
 let grp={
 
     saurabh:7,
@@ -74,8 +82,8 @@ console.log(typeof grp);
 
 function calling()
 {
-    console.log("saurfabh is good  boy");
-    console.log(" hii try to type fast plx else otherwise you will be back on foot");
+    console.log("saurabh is good  boy");
+    console.log(" hii try to type fast plzz else you will be back foot");
     console.log("saurabh is good boy kkk ...try to understand ")
 }
 

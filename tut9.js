@@ -43,7 +43,7 @@ console.log('..............................................................');
 
 console.log('for each loop in js');
 
-let arx=[1,2,4,5,6,3];
+ arx=[1,2,4,5,6,3];
 
 
 arx.forEach(function(element,index)
@@ -51,12 +51,16 @@ arx.forEach(function(element,index)
 console.log(element,index);
 }
 );
+
+
 console.log('...........................for each loop.................................');
 arx.forEach(function(element)
 {
 console.log(element);
 }
 );
+
+
 
 console.log('..............................................................');
 
@@ -77,9 +81,25 @@ for(let key in objj)
 
 
 console.log('..............................................................');
+
 arx.forEach(function(element,index,array)
 {
 console.log(element,index ,array);
 }
 );
+
+
+
+
+let ui={
+    s1:1,
+    s2:2,
+    s3:3
+}
+
+
+for(let k in ui)
+{
+    console.log(`the key is ${k} and val is ${ui[k]}`);
+}
 

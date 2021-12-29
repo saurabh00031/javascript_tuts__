@@ -1,4 +1,4 @@
-console.log('tut10:functions');
+console.log('tut10:functions and its working');
 
 
 let s1='saurabh';
@@ -24,7 +24,6 @@ greetingsG(s1);
 greetingsG(s2);
 
 console.log(greet('saurabh patil'));
-
 console.log(greet());
 
 
@@ -85,13 +84,14 @@ function jumpNum(num1)
 jumpNum(num1);
 
 
-const helloWorld = () => 
+ const helloWorld = (x,y=9) => 
 {
     console.log('Hello World!');
+    console.log(x,y);
 };
 
 
-helloWorld();
+helloWorld(10);
 
 
 

@@ -118,13 +118,18 @@ console.log('tut 15 is running');
 // helloWorld();
 
 
+console.log('\n...................................................................................\n')
+
 let qs1=document.querySelector('#ssp1');
-console.log(qs1.childNodes)   //text,commet,sab new lines dikhaiga 
+console.log(qs1.childNodes)   //text,commet,sab new lines dikhayega 
 console.log(qs1.children)       //isme sab nahi dikhai dega...text,comments,new lines nahi maanegaa
+
+console.log('\n..............................cv....................................................\n')
 
 let qs2=document.querySelector('.child');
 console.log(qs2.parentNode)
-
+console.log(qs2.childNodes)   //text,commet,sab new lines dikhayega 
+console.log(qs2.children)       //isme sab nahi dikhai dega...text,comments,new lines nahi maanegaa
 
 
 let qs3=qs1.childNodes[0].nodeName;
@@ -142,16 +147,30 @@ console.log(qs4)
 // if type == 9: document
 // if type == 10: docType
 
-let cont=document.querySelector('.ssp') ;
 
-console.log(cont.children[1].children[1].children[1].children);
-console.log(cont.firstChild); //gievs nodeType of first child
+console.log('............................childrens..................................................');
+
+let cont=document.querySelector('.ssp') ;
+console.log(cont.children[1].children[1].children);
+console.log(cont.firstChild);                                //gives nodeType of first child
 console.log(cont.firstElementChild);
-console.log(cont.lastChild);
-console.log(cont.lastElementChild);
+console.log(cont.lastChild);                                 //gives nodeType of last child
+console.log(cont.lastElementChild); 
 console.log(cont.childElementCount);
 
+console.log('.......................................................................................');
+
+console.log(cont.firstElementChild);
 console.log(cont.firstElementChild.parentNode);
+console.log(cont.firstElementChild.nextElementSibling);
+console.log(cont.firstElementChild.nextSibling.nextSibling);  
 console.log(cont.firstElementChild.nextSibling.nextSibling);
 console.log(cont.firstElementChild.nextElementSibling.nextElementSibling);
+console.log(cont.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling);
+
+console.log('.......................................................................................');
+
+
+
+
 

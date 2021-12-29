@@ -5,8 +5,8 @@ let a=window;
 //window obj is automatically always global
 console.log(a);
 
-// let b=prompt('this will destroy your computer');   //store kar leta data answer kiya huva
-// console.log(b);
+//  let b=prompt('this will destroy your computer');   //store kar leta data answer kiya huva
+//  console.log(b);
 
 
 // let c=confirm('do you want to sleep?');
@@ -22,8 +22,7 @@ let w1=window.innerWidth;
 
 console.log(h1,w1);
 
-let h2=innerHeight;
-console.log(h2);
+
 
 let xs=scrollX;
 let ys=scrollY;
@@ -51,6 +50,7 @@ function callStunt()
 }
 
 
+console.log("........outer and inner heights.........")
 
 let o1=outerHeight;
 let o2=outerHeight;
@@ -81,5 +81,6 @@ let his=window.history;
 console.log(his);
 
 console.log(window.history.toString());
+
 
 

@@ -6,17 +6,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document 16 : creating,removing,replacing elements</title>
-    
+    <title>Document 18 : events  && event object more deeply </title>
     <link rel="stylesheet" href="bootss/css/bootstrap.css">
-    <link rel="stylesheet" href="tut16.css">
-
+    <link rel="stylesheet" href="tut18.css">
+    
+    
 </head>
 <body>
     
-    <center><h1>hiiiiiii</h1></center>
-    <p>hiiiiiii</p>
-    <span style="border:2px solid pink;">hiii hiii</span>
+    <center><h1 id="h1di">hiiiiiii</h1></center>
+    <p class="pdic" id="pdi">codes</p>
+    <p class="pdi2c" id="pdi2">codes2</p>
+    <span id="sp1">span in html</span><br>
+    <span style="border:2px solid yellow;">hiii hiii</span>
 
     <div class="container mt-5 text-white">
         <div class="row">
@@ -43,7 +45,7 @@
       <div class="child">
         <h1>child 1</h1>
 
-        <ul class="this" id="ul1">
+        <ul class="this">
             <li class="child"><p>this</p></li>
             <li class="child">is </li>
             <li class="child">good</li>
@@ -52,11 +54,10 @@
             <li class="child">work</li>
         </ul>
     
-       <h3 id="h3id">h3 id</h3
-        
+
       </div>
 
- <div class="child">
+ <div class="child" >
           <h1>child 2</h1>
       </div>
 
@@ -67,10 +68,21 @@
     </div>
 
    
+  <form action="" method="post" >
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" value="" id="lname" onchange="cfc()" name="lname">
+    <input type="button" id="btn" class="btn btn-danger" value="submit">
+   
+  </form>
+  
   
 </body>
-<script src="tut16.js"></script>
- 
+
+
+<script src="tut18.js"></script>
+
 
 
 </html>

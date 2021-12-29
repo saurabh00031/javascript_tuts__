@@ -78,7 +78,7 @@ console.log(arr1);  //valid although arr1 was const bcz we pushed//
 //camelcase  =>camelCase
 //kebabcase  =>kebab-case
 //snakecase  =>snake_case
-//pascalcase =>CamelCase
+//pascalcase =>PascalCase
 
 
 
