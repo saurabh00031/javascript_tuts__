@@ -66,7 +66,10 @@ function buttonClickHandler()
 
    
 
-  
+         xhr.onprogress=function()
+         {
+             console.log("in progress");
+         }
 
 ///
 

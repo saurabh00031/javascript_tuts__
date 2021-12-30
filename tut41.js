@@ -35,3 +35,4 @@ console.log(arFuncx(10,20,30));
 
 const objFunc=()=>({name:"saurabh",surname:"patil"});
 console.log(objFunc());
+

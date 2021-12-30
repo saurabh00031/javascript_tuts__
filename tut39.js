@@ -66,7 +66,7 @@ function enrolls(student)
     setTimeout(function()
     {
         students.push(student);
-        const error=true;
+        const error=false;
         console.log("student is enrolled");
         if(!error)
         {
